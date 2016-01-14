@@ -3,6 +3,7 @@ This PHP script, from the Apache access log, you can aggregate the network trans
 
 ##Requirements
 Format of the access log must be combinedio.
+
 https://httpd.apache.org/docs/2.4/en/mod/mod_logio.html
 
 combinedio log format
@@ -12,6 +13,6 @@ CustomLog logs/access_log combinedio
 ```
 
 ## Usage
-```SHELL
+```BASH
 php ApacheTrafficMeasurement.php /var/log/httpd/access_log
 ```
